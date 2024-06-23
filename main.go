@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	botToken := "7319106212:AAH_pdu7Q3TMW6iWrw9qNrVa2EsklE6ndPM"
+	botToken := "BOT_TOKEN"
 
 	bot, err := telego.NewBot(botToken, telego.WithDefaultDebugLogger())
 	if err != nil {
